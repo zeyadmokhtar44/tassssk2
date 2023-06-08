@@ -1,0 +1,151 @@
+
+body {
+    background-color: #F4F4F4;
+    font-family: Lato;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+
+.main-heading h2 {
+    font-size: 40px;
+    font-weight:300;
+    font-family: Lato;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    position: relative;
+    letter-spacing: 2;
+    word-spacing: 3;
+
+}
+
+h3 {
+    font-family: Lato ;
+    text-transform: uppercase   ;
+    
+}
+
+.pricing {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pricing .box-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing .box-card .card {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    width: 350px;
+    border: 1px solid transparent;
+}
+
+.pricing .box-card .card .header {
+    padding: 20px
+}
+
+.pricing .box-card .card .header h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+.pricing .box-card .card .header p {
+    color: #333;
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pricing .box-card .card .header span {
+    top: -5px;
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+    color: rgb(218, 131, 9);
+    font-weight: lighter;
+    font-size: 60px;
+    color: rgb(218, 131, 9);
+    left: 70px;
+}
+
+.pricing .box-card .card .header span::before {
+    content: "$";
+    position: relative;
+    top: -5px;
+    font-weight: normal;
+    font-size: 40px;
+    margin-right: 15px;
+    color: rgb(218, 131, 9);
+}
+
+.pricing .box-card .card .header span::after {
+    content: "/Month";
+    position: relative;
+    right: -15px;
+    font-size: 20px;
+    color: rgb(218, 131, 9);
+}
+
+.pricing .box-card .card ul {
+    border-top: solid 1px #333;
+    border-bottom: 1px solid #333;
+    list-style-type: none;
+    padding: 10px 5px;
+    margin-left: 10px;
+}
+
+.pricing .box-card .card ul li img {
+    width: 15px;
+    margin-right: 20px;
+}
+
+.pricing .box-card .card ul li {
+    position: relative;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.pricing .box-card .card .footer a {
+    display: block;
+    width: 100px;
+    height: 15px;
+    margin: 20px auto;
+    font-family: Lato;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(218, 131, 9);
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 70px;
+    border: 1px solid rgb(218, 131, 9);
+    text-align: center;
+    
+}
+
+.pricing .box-card .card .footer a:hover {
+    background-color: rgb(218, 131, 9);
+    color: #fff;
+}
+hr{
+    border: solid 3px orange;
+width: 100px;
+margin: 40px auto;
+}
